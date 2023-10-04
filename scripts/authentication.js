@@ -1,8 +1,3 @@
-const domainURL = "https://gameserver.locphan201.repl.co";
-
-const usernameInput = document.getElementById("username-input");
-const passwordInput = document.getElementById("password-input");
-
 function validateInput(value) {
     var regex = /^[a-zA-Z0-9]+$/;
     return regex.test(value) && !(value == "")
